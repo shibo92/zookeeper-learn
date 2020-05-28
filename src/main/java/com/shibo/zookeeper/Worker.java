@@ -89,7 +89,7 @@ public class Worker implements Watcher {
     }
 
     public static void main(String[] args) throws Exception {
-        Worker worker = new Worker("9999");
+        Worker worker = new Worker("2188");
         worker.startZK();
         worker.register();
         Thread.sleep(1000);
