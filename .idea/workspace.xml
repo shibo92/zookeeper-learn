@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a34e4a7-8be6-4a73-9e58-64c79ea4abea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/AdminClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,33 @@
       <recent name="D:\Workspace\private\idea\zookeeper-learn\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AdminClient">
+    <configuration name="AdminClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shibo.zookeeper.AdminClient" />
+      <module name="zookeeper-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shibo.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shibo.zookeeper.Client" />
+      <module name="zookeeper-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shibo.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Master" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shibo.zookeeper.Master" />
       <module name="zookeeper-learn" />
@@ -71,6 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdminClient" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Master" />
       </list>
     </recent_temporary>
@@ -97,7 +130,8 @@
       <workItem from="1590398183677" duration="597000" />
       <workItem from="1590459287882" duration="271000" />
       <workItem from="1590460391183" duration="2194000" />
-      <workItem from="1590635190194" duration="44000" />
+      <workItem from="1590635190194" duration="3033000" />
+      <workItem from="1590650265902" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="获取管理权（同步、异步）">
       <created>1589363503611</created>
@@ -133,10 +167,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588750542429" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1590069989475">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1590650645218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589354235749" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590650645218" />
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590069989475" />
     <state x="549" y="114" key="CommitChangelistDialog2" timestamp="1590379023749">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -146,38 +180,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588748834541" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1590398138759">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1590653406928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138759" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1590398138759">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653406928" />
+    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1590653406928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138759" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1590398138759">
+    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653406928" />
+    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1590653406928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138759" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1590398138759">
+    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653406928" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1590653406928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138759" />
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1590398138760">
+    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653406928" />
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1590649412352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138760" />
-    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1590398138760">
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590649412352" />
+    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1590649412351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138760" />
-    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1590398138760">
+    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590649412351" />
+    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1590649412351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138760" />
-    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1590398138760">
+    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590649412351" />
+    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1590649412352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590398138760" />
+    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590649412352" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1590378116317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="275" width="626" height="490" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590378817035" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590071139719">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590650933178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589354388385" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590650933178" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590071139719" />
   </component>
 </project>
