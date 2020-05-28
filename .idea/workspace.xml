@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a34e4a7-8be6-4a73-9e58-64c79ea4abea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/AdminClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shibo/zookeeper/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shibo/zookeeper/Worker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +125,7 @@
       <workItem from="1590459287882" duration="271000" />
       <workItem from="1590460391183" duration="2194000" />
       <workItem from="1590635190194" duration="3033000" />
-      <workItem from="1590650265902" duration="2539000" />
+      <workItem from="1590650265902" duration="2783000" />
     </task>
     <task id="LOCAL-00001" summary="获取管理权（同步、异步）">
       <created>1589363503611</created>
@@ -147,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590379024789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1. 任务队列化&#10;2. 管理客户端">
+      <created>1590653451093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590653451093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. 任务队列化&#10;2. 管理客户端">
+      <created>1590653604727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590653604727</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +164,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="获取管理权（同步、异步）" />
     <MESSAGE value="从节点注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="从节点注册" />
+    <MESSAGE value="1. 任务队列化&#10;2. 管理客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 任务队列化&#10;2. 管理客户端" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Notifications" timestamp="1588748827336">
@@ -172,10 +181,10 @@
     </state>
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590650645218" />
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590069989475" />
-    <state x="549" y="114" key="CommitChangelistDialog2" timestamp="1590653450262">
+    <state x="549" y="114" key="CommitChangelistDialog2" timestamp="1590653604159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653450262" />
+    <state x="549" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653604159" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1588748834541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -220,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="549" height="524" key="StructurePopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590377873382" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590653452544">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590653606439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653452544" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590653606439" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588751831435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
